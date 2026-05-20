@@ -1,0 +1,79 @@
+body {
+    margin: 30px;
+    background: #9d6f2a;
+    background-image: url('images/fondo.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+#content {
+    padding: 20px 50px 30px 50px;
+    background: #d8eefa;
+    margin: 80px auto;
+    max-width: 900px;
+    border: 20px double goldenrod;
+    border-radius: 30px;
+    box-shadow: 0px 10px 20px rgba(0,0,0,0.4);
+    background-clip: padding-box;
+    font-family: "Pixelify Sans", sans-serif; 
+}
+
+#content>h1 {
+    font-weight: 400;
+    font-size: 2.5em;
+    font-family: "Pixelify Sans", sans-serif;
+    line-height: 1em;
+    border: 10px inset goldenrod;
+    padding: 8px 20px;
+    margin-top: -60px;
+    text-align: center;
+    border-radius: 20px;
+    background: #f6de90;
+}
+
+.caja {
+    text-align: center;
+}
+
+.caja img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 15px;
+}
+
+/* Diseño unificado y pulido para los botones de opciones */
+.opc1, .opc2, .opc3 {
+    display: block;
+    width: 100%;
+    margin: 15px 0;
+    border: 10px inset goldenrod;
+    padding: 12px;
+    text-align: center;
+    font-family: "Pixelify Sans", sans-serif;
+    font-size: 1.1em;
+    border-radius: 30px;
+    background: #fff;
+    filter: drop-shadow(0px 8px 4px #546697);
+    transition: all 0.5s;
+    transform: scale(1) rotate(0deg);
+    cursor: pointer;
+    outline: none;
+}
+
+.opc3 {
+    background-image: linear-gradient(#fff);
+}
+
+/* Efectos hover para interacción interactiva */
+.opc1:hover, .opc2:hover {
+    border: 10px outset goldenrod;
+    filter: drop-shadow(0px 8px 10px #546697);
+    transform: scale(1.02) rotate(-0.5deg);
+}
+
+.opc3:hover {
+    border: 10px outset goldenrod;
+    filter: drop-shadow(0px 8px 10px #7c9ee1);
+    background-image: linear-gradient(#eeeeff, #ffee22);
+    transform: scale(1.02) rotate(-0.5deg);
+}
